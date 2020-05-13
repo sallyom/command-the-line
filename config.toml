@@ -1,4 +1,4 @@
-baseurl = "https://sallyom.github.io"
+baseurl = "https://sallyom.github.io/"
 title = "Adventures in Open Sourcery"
 copyright = "Copyright &copy; 2020 - Sally Ann O'Malley"
 canonifyurls = true
