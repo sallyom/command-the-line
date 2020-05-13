@@ -3,7 +3,6 @@ title = "Adventures in Open Sourcery"
 copyright = "Copyright &copy; 2020 - Sally Ann O'Malley"
 canonifyurls = true
 theme = "hugo-kiera"
-publishDir = "sallyom.github.io"
 
 paginate = 3
 
