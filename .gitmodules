@@ -1,6 +1,3 @@
-[submodule "sallyom.github.io"]
-	path = sallyom.github.io
-	url = git@github.com:sallyom/sallyom.github.io.git
 [submodule "themes/hugo-kiera"]
 	path = themes/hugo-kiera
 	url = https://github.com/funkydan2/hugo-kiera.git
