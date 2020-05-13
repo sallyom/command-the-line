@@ -1,7 +1,7 @@
 ---
 title: "Allow Me to Introduce Myself"
 date: 2020-05-12T23:57:50-04:00
-draft: true
+draft: false
 ---
 
 I've been working as a software engineer for a while now.  I'm a mom.  This is

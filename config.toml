@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313"
+baseURL = "https://sallyom.github.io"
 title = "Adventures in Open Sorcery"
 author = "Sally Ann O'Malley"
 paginate = 3
@@ -7,6 +7,7 @@ DefaultContentLanguage = "en"
 enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 theme = "harbor"
+publishDir = "sallyom.github.io"
 
 [Author]
   name = "Sally Ann O'Malley"
