@@ -1,41 +1,50 @@
-baseURL = "https://sallyom.github.io"
-title = "Adventures in Open Sorcery"
-author = "Sally Ann O'Malley"
-paginate = 3
-languageCode = "en"
-DefaultContentLanguage = "en"
-enableInlineShortcodes = true
-footnoteReturnLinkContents = "^"
-theme = "harbor"
+baseurl = "https://sallyom.github.io"
+title = "Adventures in Open Sourcery"
+copyright = "Copyright &copy; 2020 - Sally Ann O'Malley"
+canonifyurls = true
+theme = "hugo-kiera"
 publishDir = "sallyom.github.io"
 
-[Author]
-  name = "Sally Ann O'Malley"
+paginate = 3
 
-[outputs]
-    section = ["JSON", "HTML"]
+summaryLength = 30
+enableEmoji = true
+pygmentsCodeFences = true
 
-[[params.nav]]
-  identifier = "about"
-  name = "About"
-  icon = "fas fa-user fa-lg"
-  url = "/about/"
-  weight = 3
+#disqusShortname = "myShortName"
 
-[[params.nav]]
-  identifier = "tags"
-  name = "Tags"
-  icon = "fas fa-tag fa-lg"
-  url = "tags"
-  weight = 3
+# Note: to disable a social network icon delete or comment out the corresponding line
+[author]
+    github = "sallyom"
+    #gitlab = "username"
+    #linkedin = "sally-ann-omalley"
+    #facebook = "username"
+    twitter = "somalley108"
+    #instagram = "username"
+    #stackoverflow = "username"
+    #youtube = "user/username" # or channel/channelname
 
 [params]
-  mainSections = ["post"]
-  favicon = "favicon.ico"
+    tagline = "This is my blog."
+    description = "A collection of stuff I've learned."
+    #images = [""] #This is used for opengraph/twitter cards.
+    customCSS = []  #Optional Customised CSS
+    #favicon = ""
+    #utterancesRepo = "username/repository"
+    #utterancesIssueTerm = "pathname"
+    #homepageLength = 10
+    #commentAutoload = true  #This mean reader don't need click, disqus comment autoload
 
-  [params.logo]
-    url = "icon.png"
-    width = 50
-    height = 50
-    alt = "Logo"
+# uncomment to enable the Tags link on the main toolbar
+#  [[menu.main]]
+#    identifier = "tags"
+#    name = "Tags"
+#    url = "/tags"
+#    weight = 1
 
+# uncomment to enable the Categories link on the main toolbar
+#  [[menu.main]]
+#    identifier = "categories"
+#    name = "Categories"
+#    url = "/categories"
+#    weight = 1

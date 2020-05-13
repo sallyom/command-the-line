@@ -34,10 +34,10 @@ There is one class at Northeastern I loved the most. It was a fluid mechanics
 course, during which I wrote my first computer program.  I taught myself just
 enough C to complete an assignment.  I remember sitting in a computer lab
 for hours, tracking down rogue parentheses and semicolons. I remember the
-feeling of victory when I entered some tank measurments, pipe diameters, and
+feeling of victory when I entered some tank measurements, pipe diameters, and
 viscosities, and my program output the time it would take to empty the tank.
 That memory is the reason I enrolled at UMass, to study as many programming
-courses as I could, and ended up with a degree in Information Technology and
+courses as I could afford, and ended up with a degree in Information Technology and
 an internship at Red Hat.
 
 My first two weeks at Red Hat I learned git.  My first pull request merged,
@@ -50,7 +50,5 @@ to be a mentor for anyone who comes in behind me.
 Speaking of mentors, I've had many.  I graduated from intern to associate software 
 engineer to software engineer.  I'm lucky to work with some brilliant people whose
 ideas are shaping the future.  I want to share some of the cool things I've learned
-from working with lots of really smart people.  Lately it's Kubernetes and 
+from working with lots of really smart people.  Lately it's been Kubernetes and 
 OpenShift but I try to mix it up a bit.  I'm living my dream.
-
-
