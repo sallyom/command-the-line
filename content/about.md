@@ -39,8 +39,7 @@ rewrite my origin story, I’m keeping it as a marker of how the world looked to
 
 **Five years later…**
 
-I'm now a Principal Software Engineer. I went from intern to associate to engineer to senior to principal. The trajectory that once felt impossible
-- back when I was working part-time at Trader Joe’s trying to understand Linux, pointers, and linked lists — ended up becoming my life.
+I'm now a Principal Software Engineer. I went from intern to associate to engineer to senior to principal. The trajectory that once felt impossible — back when I was working part-time at Trader Joe's trying to understand Linux, pointers, and linked lists — ended up becoming my life.
 I now co-teach a course at Boston University called *Software Engineering Career Prep*, where I help aspiring software developers learn the
 tools and insights I wish I knew on my first day as an intern. The industry has transformed dramatically — especially in the last few months.
 AI has fundamentally changed what it means to be a software engineer, in ways I'm still processing and will be writing about here. But some things
