@@ -1,0 +1,13 @@
+/* Override theme's narrow content width */
+#container > * {
+  width: 900px;
+  max-width: 90%;
+}
+
+/* Keep responsive behavior on smaller screens */
+@media only screen and (max-width: 1000px) {
+  #container > * {
+    width: auto;
+    margin: 0 1.5em;
+  }
+}

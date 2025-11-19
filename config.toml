@@ -1,10 +1,11 @@
 baseurl = "https://sallyom.github.io/"
 title = "Adventures in Open Sourcery"
-copyright = "Copyright &copy; 2020 - Sally Ann O'Malley"
+copyright = "Copyright &copy; 2020-2025 - Sally Ann O'Malley"
 canonifyurls = true
 theme = "hugo-kiera"
 
-paginate = 3
+[pagination]
+pagerSize = 3
 
 summaryLength = 30
 enableEmoji = true
@@ -27,23 +28,29 @@ pygmentsCodeFences = true
     tagline = "This is my blog."
     description = "A collection of stuff I've learned."
     #images = [""] #This is used for opengraph/twitter cards.
-    customCSS = []  #Optional Customised CSS
+    customCSS = ["css/custom.css"]  #Optional Customised CSS
     #favicon = ""
     #utterancesRepo = "username/repository"
     #utterancesIssueTerm = "pathname"
     #homepageLength = 10
     #commentAutoload = true  #This mean reader don't need click, disqus comment autoload
 
+[[menu.main]]
+  identifier = "about"
+  name = "About"
+  url = "/about"
+  weight = 1
+
 # uncomment to enable the Tags link on the main toolbar
 #  [[menu.main]]
 #    identifier = "tags"
 #    name = "Tags"
 #    url = "/tags"
-#    weight = 1
+#    weight = 2
 
 # uncomment to enable the Categories link on the main toolbar
 #  [[menu.main]]
 #    identifier = "categories"
 #    name = "Categories"
 #    url = "/categories"
-#    weight = 1
+#    weight = 3
