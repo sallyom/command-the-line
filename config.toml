@@ -1,5 +1,5 @@
 baseurl = "https://sallyom.github.io/"
-title = "Adventures in Open Sourcery"
+title = "This is my blog..."
 copyright = "Copyright &copy; 2020-2025 - Sally Ann O'Malley"
 canonifyurls = true
 theme = "hugo-kiera"
