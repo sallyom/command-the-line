@@ -8,9 +8,10 @@ draft: false
 
 ### *How the last few months quietly transformed my role as a software engineer*
 
-Over the last **eight weeks**, my role as a software developer has quietly and
-profoundly transformed. I didn't negotiate a new title or adopt a new framework. Without
-ceremony or fanfare, the job itself simply changed. With AI, old workflows have become obsolete.
+Over the last **eight weeks**, my role as a software developer has profoundly transformed.
+I didn't negotiate a new title or adopt a new framework. Without ceremony or fanfare, the job itself simply changed.
+With AI's quiet and reliable power, old workflows have become obsolete.
+Not using AI stopped making sense. The ground moved beneath me.
 
 ## I didn’t decide to work differently. AI became too good to ignore.
 
@@ -18,9 +19,10 @@ I used to write everything from scratch: a Kubernetes controller, a complex scri
 a system manifest. That was the job. Today, I describe that same controller’s desired
 behavior to an AI, and it generates the entire, clean codebase, complete with
 scaffolding, RBAC, and tests. It’s not just generating code; it’s providing instant
-access to a compressed universe of accumulated patterns and knowledge. What I wasn't
-prepared for was its **quiet, reliable power**. For many tasks, we now bypass code
-entirely, delegating the workflow itself to the AI.
+access to a compressed universe of accumulated patterns and knowledge.
+What's more, when the model understands the workflow, and I can give it a runner or tool access,
+executing code can often become redundant. We can now bypass code entirely by delegating behavior
+in plain text to an AI runner.
 
 This isn't theory; it's my daily workflow. Every refactor, script, and debugging
 session now starts with my AI partner. Before, building a complex Grafana dashboard
@@ -51,16 +53,16 @@ Realizing this as a mentor and teacher is what made the shift undeniable.
 
 ## And strangely enough, the human part of my job got stronger.
 
-As AI takes on more of the mechanical labor, the rogue parentheses and unwanted whitespace, the nil-pointer and race condition hunts,
-the repetitive boilerplate, my teammates and I spend more time actually talking. More time imagining. More time designing.
+As AI takes on more of the mechanical labor, the rogue parentheses, the nil-pointer and race condition hunts, the repetitive boilerplate,
+I can imagine a world where my teammates and I spend more time actually talking. More time imagining. More time designing.
 
-We're less hunched over keyboards and more engaged with each other. And because the tedious parts aren't draining our
-energy, we all have more space to explore ideas that once felt too ambitious or too time-consuming. Wild ideas feel
-more doable. Innovative solutions feel closer. The ceiling feels higher.
+When we’re less hunched over keyboards we can be more engaged with each other. When the tedious parts aren’t draining our energy,
+we may have more space to explore ideas that once felt too ambitious or too time-consuming. Wild ideas feel more doable.
+Innovative solutions feel closer. The ceiling feels higher.
 
-Which is fitting, because even this post was written the same way I now build software: in conversation with my AI
-partner, shaping the ideas together, clarifying them like I would with a colleague or a very patient friend. The
-process even feels a little like therapy for the engineering mind: a space to think out loud, challenge assumptions,
+Which is fitting, because even this post was written the same way I now build software: in conversation with my AI partner,
+shaping the ideas together, clarifying them like I would with a colleague or a very patient friend.
+The process even feels a little like therapy for the engineering mind: a space to think out loud, challenge assumptions,
 and imagine what could be possible.
 
 ---
