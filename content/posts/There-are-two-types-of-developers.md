@@ -4,44 +4,28 @@ date: 2025-12-16T20:00:00-05:00
 draft: false
 ---
 
-# There Are Two Types of Software Developers
+# There are two ways developers approach a problem
 
-When you give two software engineers the same problem, you can often predict what they’ll do next not by seniority or
-skill level, but by instinct. Over time, I’ve come to believe there are two broad styles of developers. These aren’t
-rigid categories, and most of us move between them depending on context. But under pressure, we tend to default to one. The
-difference shows up immediately after a problem is handed over.
+When you give two software engineers the same problem, you can often predict what they’ll do next, regardless of seniority or skill level.
+Developers usually follow one of two instincts. One instinct is motion. Make something happen as quickly as possible. Open an editor,
+wire things together, push until the system does *anything* at all. It doesn’t have to be elegant or correct, it just has to exist. For these
+developers, forward motion creates clarity. Code is how they ask questions.
 
-## Two instincts
+The other instinct is understanding. Slow down. Ask questions. Read the docs. Sketch diagrams. Build a complete mental model before writing a
+line of code. For these developers, code isn’t a tool for discovery, it’s an expression of understanding.
 
-The first kind of developer responds to a new problem with motion. They want to *do something* as quickly as possible.
-They open an editor, scaffold a project, wire pieces together, often with copy and paste, and push forward until the
-system does anything at all. It doesn’t have to be elegant. It doesn’t even have to be correct. It just has to exist.
-For this kind of developer, forward motion creates clarity. Understanding emerges through interaction.
-Code is how they ask the system questions.
+Neither instinct is better. They simply optimize for different risks: never starting versus building the wrong thing.
 
-The second kind of developer reacts very differently. Faced with a problem, they slow down. They ask questions.
-They want to understand every input, every constraint, every edge case before writing a single line of code.
-They sketch diagrams, read documentation, and build a complete mental model first. For them, code is not a tool for
-discovery, it’s an expression of understanding.
-
-Neither instinct is better. They simply optimize for different risks. One minimizes the risk of never starting.
-The other minimizes the risk of building the wrong thing.
-
-## Where I land
-
-I’ve always been firmly in the first camp. When I’m given a problem, my instinct isn’t to fully understand it.
-It’s to make *something* happen. Anything. Even if it’s wrong. Even if it’s trivial. Even if all the computer does is
-print “hello world.”
-
-I need to know that I can make the system respond to me, that I can get *any* foothold at all. Once something exists,
-once it runs, prints, crashes, or behaves badly, I can move forward. That’s how I think. Code is how I ask questions.
+I’ve always been firmly in the first camp. When I’m given a problem, my instinct isn’t to fully understand it. I need to make *something* happen.
+Anything. Even if it’s wrong. Even if all the computer does is print “hello world.” Once something exists, once it runs, crashes, or behaves
+badly, I can move forward. That’s how I think, trial and error code is how I ask questions. It turns out that AI works well with this style of thinking.
 
 ## Why AI fits this style well
 
-AI dramatically lowers the cost of that first step. The time between “I wonder if this could work” and “I have
+AI lowers the cost of that first step. The time between “I wonder if this could work” and “I have
 something I can react to” has nearly collapsed. I don’t have to fight syntax, imports, or setup just to get a pulse. I
 can describe what I want, see it come alive almost instantly, and then start refining. For someone wired the way I am, 
-that changes everything. What surprised me wasn’t that AI could write code, but how well it matched the way I already think.
+that changes everything and it makes me feel somewhat superhuman.
 
 ## The part I’ve always struggled to explain
 
@@ -69,8 +53,8 @@ Even though intuition is how I naturally learn and build, I’m very aware that 
 especially when considering the success of a team. I’m more than happy to engage in detailed discussions. I care about
 design reviews, diagrams, proposals, and shared understanding. I know it’s my responsibility to read them, follow them,
 and usually abide by them. Those artifacts matter. They’re how teams align, how decisions scale, and how work survives beyond
-any one person. It’s just not how I start. You’ll never find me kicking off a project by presenting a perfectly formed
-mermaid diagram. My brain almost seems to have a kind of dyslexia when it comes to reading them. I need to see something
+any one person. It’s just not how I start. I'll never kick off a project by presenting a perfectly formed
+mermaid diagram. My brain seems to have a kind of dyslexia when it even comes to reading them. I need to see something
 behave before the structure clicks. That doesn’t mean the structure isn’t important. It just means I arrive at it from the
 opposite direction.
 
