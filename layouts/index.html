@@ -1,0 +1,27 @@
+{{ define "main" }}
+
+<section id="home">
+  <ul class="post-list">
+    {{ $pages := where site.RegularPages "Type" "posts" }}
+    {{ $paginator := .Paginate $pages }}
+    {{ range $index, $page := $paginator.Pages }}
+
+    <li class="post-card">
+      <article>
+        <h2><a href="{{ $page.Permalink }}" title="{{ $page.Title }}">{{ .Title }}</a></h2>
+        {{ partial "aside" . }}
+        <div class="post-summary">
+          {{ .Summary }}
+        </div>
+        {{ if .Truncated }}
+        <a href="{{ .RelPermalink }}" class="read-more">Read more →</a>
+        {{ end }}
+      </article>
+    </li>
+    {{ end }}
+  </ul>
+</section>
+
+{{ template "_internal/pagination.html" . }}
+
+{{ end }}

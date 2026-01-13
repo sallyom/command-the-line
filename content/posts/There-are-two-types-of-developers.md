@@ -1,12 +1,10 @@
 ---
-title: "There Are Two Types of Software Developers"
+title: "Two Ways Developers Approach a Problem"
 date: 2025-12-16T20:00:00-05:00
 draft: false
 ---
 
-# There are two ways developers approach a problem
-
-When you give two software engineers the same problem, you can often predict what they’ll do next, regardless of seniority or skill level.
+When you give two software engineers the same problem, you can often predict what they'll do next, regardless of seniority or skill level.
 Developers usually follow one of two instincts. One instinct is motion. Make something happen as quickly as possible. Open an editor,
 wire things together, push until the system does *anything* at all. It doesn’t have to be elegant or correct, it just has to exist. For these
 developers, forward motion creates clarity. Code is how they ask questions.

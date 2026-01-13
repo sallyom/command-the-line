@@ -1,5 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
 
+/* Layout improvements */
 #container > * {
   width: 900px;
   max-width: 90%;
@@ -12,11 +13,254 @@
   }
 }
 
+/* Typography */
 body {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  font-size: 16px;
+  line-height: 1.7;
+  letter-spacing: -0.011em;
 }
 
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
   font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.3;
+  margin-top: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+h1 {
+  font-size: 2.2em;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.4em;
+  margin-top: 2em;
+  margin-bottom: 0.8em;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 1.3em;
+  font-weight: 600;
+}
+
+/* Subtitle styling */
+.subtitle {
+  font-size: 1.1em;
+  margin-top: 0.5em;
+  margin-bottom: 2em;
+  opacity: 0.7;
+  line-height: 1.5;
+}
+
+/* Post listing section background */
+#home {
+  background: rgba(128, 128, 128, 0.05);
+  padding: 2em 0;
+  margin: 0 -2em;
+  padding-left: 2em;
+  padding-right: 2em;
+}
+
+.post-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.post-card {
+  margin-bottom: 2em;
+  list-style: none;
+}
+
+.post-card article {
+  padding: 2em;
+  border: 1px solid rgba(128, 128, 128, 0.15);
+  border-radius: 8px;
+  background: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.06);
+  transition: all 0.2s ease;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.post-card article:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+  border-color: rgba(128, 128, 128, 0.25);
+}
+
+.post-card h2 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  border: none;
+  background: none;
+  padding: 0;
+  font-size: 1.5em;
+  line-height: 1.3;
+}
+
+.post-card h2 a {
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.post-card h2 a:hover {
+  text-decoration: underline;
+}
+
+.post-summary {
+  flex-grow: 1;
+  margin-top: 1em;
+  margin-bottom: 1em;
+  line-height: 1.6;
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  text-overflow: ellipsis;
+}
+
+.read-more {
+  display: inline-block;
+  margin-top: auto;
+  font-weight: 500;
+  text-decoration: none;
+  transition: transform 0.2s ease;
+}
+
+.read-more:hover {
+  transform: translateX(4px);
+}
+
+/* Single post article styling */
+#article article,
+main article:not(.post-card article) {
+  padding: 0;
+  border: none;
+  background: none;
+  box-shadow: none;
+}
+
+/* Article header in single posts */
+article header h2 {
+  margin-top: 0;
+  margin-bottom: 0.5em;
+  border-bottom: none;
+  font-size: 1.5em;
+}
+
+/* Metadata styling */
+.meta {
+  font-size: 0.9em;
+  opacity: 0.7;
+  font-weight: 400;
+  margin-bottom: 1em;
+}
+
+.meta time {
+  font-variant-numeric: tabular-nums;
+}
+
+/* Post content improvements */
+.content {
+  margin-top: 2em;
+}
+
+.content p {
+  margin-bottom: 1.5em;
+}
+
+.content ul, .content ol {
+  margin-bottom: 1.5em;
+  padding-left: 1.5em;
+}
+
+.content li {
+  margin-bottom: 0.5em;
+}
+
+/* Code blocks */
+pre {
+  padding: 1em;
+  border-radius: 6px;
+  overflow-x: auto;
+  font-size: 0.9em;
+  line-height: 1.5;
+}
+
+code {
+  font-family: 'SF Mono', 'Monaco', 'Inconsolata', 'Fira Code', monospace;
+  font-size: 0.9em;
+}
+
+/* Links */
+a {
+  color: inherit;
+  text-decoration-color: rgba(128, 128, 128, 0.4);
+  text-underline-offset: 0.2em;
+  transition: all 0.2s ease;
+}
+
+a:hover {
+  text-decoration-color: currentColor;
+}
+
+/* Blockquotes */
+blockquote {
+  border-left: 3px solid rgba(128, 128, 128, 0.3);
+  padding-left: 1.5em;
+  margin-left: 0;
+  font-style: italic;
+  opacity: 0.9;
+}
+
+/* Horizontal rules */
+hr {
+  border: none;
+  border-top: 1px solid rgba(128, 128, 128, 0.2);
+  margin: 3em 0;
+}
+
+/* Smooth scrolling */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Reading width optimization */
+.content > p,
+.content > ul,
+.content > ol,
+.content > blockquote {
+  max-width: 65ch;
+}
+
+/* Improve spacing between sections */
+section {
+  margin-bottom: 3em;
+}
+
+/* Post summary/excerpt */
+.summary {
+  opacity: 0.85;
+  line-height: 1.6;
+  margin-top: 0.5em;
+}
+
+/* Navigation improvements */
+nav {
+  margin-bottom: 3em;
+}
+
+/* Footer spacing */
+footer {
+  margin-top: 4em;
+  padding-top: 2em;
+  border-top: 1px solid rgba(128, 128, 128, 0.2);
+  opacity: 0.7;
+  font-size: 0.9em;
 }
