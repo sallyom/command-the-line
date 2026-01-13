@@ -1,6 +1,6 @@
 ---
 title: "AI Is 1000× Better Than Me at Writing Code (And I'm Not Threatened by That)"
-date: 2026-01-13T20:00:00-05:00
+date: 2026-01-13T10:00:00-05:00
 draft: false
 ---
 
