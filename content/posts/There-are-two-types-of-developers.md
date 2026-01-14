@@ -9,7 +9,7 @@ Developers usually follow one of two instincts. One instinct is motion. Make som
 wire things together, push until the system does *anything* at all. It doesn’t have to be elegant or correct, it just has to exist. For these
 developers, forward motion creates clarity. Code is how they ask questions.
 
-The other instinct is understanding. Slow down. Ask questions. Read the docs. Sketch diagrams. Build a complete mental model before writing a
+The other instinct is understanding. The ones who slow down, ask questions, read the docs, sketch diagrams, and build a complete mental model before writing a
 line of code. For these developers, code isn’t a tool for discovery, it’s an expression of understanding.
 
 Neither instinct is better. They simply optimize for different risks: never starting versus building the wrong thing.
