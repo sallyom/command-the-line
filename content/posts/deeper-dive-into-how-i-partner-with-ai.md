@@ -16,10 +16,10 @@ beach somewhere, sipping a mint julep.
 ## What I *actually* meant
 
 When I say AI is dramatically better than me at writing code, I am talking very
-specifically about the mechanics of writing code. The scaffolding, gathering dependencies, boilerplate, syntax, and setup.
+specifically about the mechanics of writing code. I haven't gathered data to back the "1000x" claim,
+I'm going with how it feels. I'm talking about the boilerplate, tests, formatting, syntax, translations between languages and versions, and setup.
 The repetitive shapes I have written a hundred times before. In that narrow domain, yes, AI is astonishingly good.
-But writing code is one small part of my job. A part that, frankly, has often
-gotten in the way of the more interesting parts.
+But writing code is one small part of my job. And now, I can spend more time on the more interesting parts.
 
 AI has not removed my role. It has changed where my attention goes.
 I am not doing *less* work. I am doing *different* work. In many ways, more demanding work.
@@ -27,19 +27,18 @@ The cognitive load didn’t disappear, it shifted upward.
 
 ## What this looks like in practice
 
-I have been working on observability for **llm-d**, an open source system for
-distributed LLM inference at scale. It's a complex ecosystem with multiple
-components, different GitHub repos, a variety of LLMs, and endless hardware
-configurations. The debugging and performance behaviors vary dramatically.
+I have been working on observability for [llm-d](https://llm-d.ai/), an open source Kubernetes-native high-performance
+distributed LLM inference framework. It's a complex ecosystem with multiple components, repositories, compatible LLMs,
+and endless hardware configurations and options. The debugging and performance behaviors vary dramatically.
 
-Through several Slack threads and conversations with the domain experts, we
+Through several Slack threads and conversations with the core domain experts, we
 compiled a document listing the most important observability insights — the
 signals engineers rely on to understand a running llm-d system.
 
 I opened a session with Claude, gave it access to the llm-d repositories, and
-shared the document. In about fifteen minutes, the AI:
+shared the document. In less than an hour, and through a fully engaged, iterative conversation, the AI:
 
-- scanned all relevant codebases  
+- scanned all relevant codebases
 - mapped each desired insight to the exact metrics available  
 - wrote precise PromQL queries for each one  
 - identified where metrics were missing  
@@ -50,7 +49,7 @@ We then produced documentation explaining what each query shows, when it
 matters, and why. I'm currently approaching llm-d distributed tracing in a similar way. 
 
 This wasn't AI replacing engineers. This was AI working alongside us, amplifying the expertise of humans who know
-this system deeply. This is what “1000× better at writing code” means in practice. Not displacement, but rather, acceleration.
+this system deeply. This is what “1000× better at writing code” means in practice. Acceleration, not displacement.
 
 ## Partnership, not replacement
 
