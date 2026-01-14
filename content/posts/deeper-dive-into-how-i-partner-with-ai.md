@@ -10,7 +10,7 @@ reactions. I said: "AI is a thousand times better than me at writing code."
 There was a pause. A few raised eyebrows. Some polite skepticism. A sense that
 I had either exaggerated wildly or accidentally declared myself obsolete.
 So I want to explain what I meant, because I stand by it. And also because it
-absolutely does not mean I have been replaced or am relaxing comfortably on a
+absolutely does not mean I have been replaced or that I'm relaxing on a
 beach somewhere, sipping a mint julep.
 
 ## What I *actually* meant
@@ -19,7 +19,8 @@ When I say AI is dramatically better than me at writing code, I am talking very
 specifically about the mechanics of writing code. I haven't gathered data to back the "1000x" claim,
 I'm going with how it feels. I'm talking about the boilerplate, tests, formatting, syntax, translations between languages and versions, and setup.
 The repetitive shapes I have written a hundred times before. In that narrow domain, yes, AI is astonishingly good.
-But writing code is one small part of my job. And now, I can spend more time on the more interesting parts.
+But writing code is one small part of my job. And now, I can spend more time on the more interesting parts. The other 90% required
+for developing software.
 
 AI has not removed my role. It has changed where my attention goes.
 I am not doing *less* work. I am doing *different* work. In many ways, more demanding work.
