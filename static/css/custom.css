@@ -100,8 +100,15 @@ h3 {
   border: none;
   background: none;
   padding: 0;
-  font-size: 1.5em;
-  line-height: 1.3;
+  font-size: 1.3em;
+  line-height: 1.4;
+}
+
+/* Subtitle in title (parenthetical) */
+.post-card h2 .subtitle-text {
+  font-size: 0.85em;
+  font-weight: 500;
+  opacity: 0.8;
 }
 
 .post-card h2 a {
@@ -123,6 +130,23 @@ h3 {
   -webkit-line-clamp: 4;
   -webkit-box-orient: vertical;
   text-overflow: ellipsis;
+}
+
+.post-summary p {
+  margin: 0;
+  display: inline;
+}
+
+/* Ensure summary shows on mobile */
+@media only screen and (max-width: 768px) {
+  .post-summary {
+    display: block;
+    max-height: none;
+  }
+
+  .post-card h2 {
+    font-size: 1.2em;
+  }
 }
 
 .read-more {
@@ -256,11 +280,79 @@ nav {
   margin-bottom: 3em;
 }
 
-/* Footer spacing */
+/* Header with headshot */
+.header-with-image {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 2em;
+  margin-bottom: 0.5em;
+}
+
+.header-headshot {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  border: 3px solid rgba(128, 128, 128, 0.2);
+  object-fit: cover;
+  object-position: center top;
+  flex-shrink: 0;
+  margin-left: -20px;
+  margin-top: 0.8em;
+}
+
+@media only screen and (max-width: 768px) {
+  .header-headshot {
+    width: 70px;
+    height: 70px;
+  }
+
+  .header-with-image h1 {
+    font-size: 1.8em;
+  }
+
+  .header-with-image {
+    gap: 1em;
+  }
+}
+
+/* Footer spacing and headshot */
 footer {
   margin-top: 4em;
   padding-top: 2em;
   border-top: 1px solid rgba(128, 128, 128, 0.2);
   opacity: 0.7;
   font-size: 0.9em;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.footer-headshot {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: 2px solid rgba(128, 128, 128, 0.2);
+  object-fit: cover;
+  object-position: center top;
+  flex-shrink: 0;
+}
+
+.footer-text {
+  flex-grow: 1;
+}
+
+@media only screen and (max-width: 768px) {
+  .footer-content {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .footer-headshot {
+    width: 40px;
+    height: 40px;
+  }
 }
