@@ -65,7 +65,7 @@ a partner. A fast, tireless, deeply knowledgeable partner who, in my experience:
 
 But it does not decide what matters. It does not know the constraints of a real system or organization. It doesn't understand context, tradeoffs,
 or consequences. It doesn't magically make an unskilled developer a wizard. It doesn't replace the skills I've acquired writing code over the last
-decade without it. It makes my talent and skills more accessible. It does not own outcomes. I do. My team does. Humans do.
+decade without it. It makes my talent and skills more accessible. It doesn't own the outcomes, I do. My team does. Humans do.
 
 ## AI is not our competitor
 
@@ -90,5 +90,5 @@ humans are, and when given better tools, (eventually) reach for better possibili
 
 AI is not distancing us from the work.  
 It is bringing us closer to the parts that matter.
-This is the world I choose to live in and to continuously work toward. I simply refuse to accept any other reality.
+This is the world I choose to live in and the world I continuously work toward. I simply refuse to accept any other reality.
 And it really is that simple.
